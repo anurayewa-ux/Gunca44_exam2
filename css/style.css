@@ -1,0 +1,41 @@
+
+
+/* Arka plan */
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+    z-index: -1;
+}
+
+/* Glass kart */
+.glass-card {
+    width: 380px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    color: white;
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+
+/* input görünümü */
+.form-control {
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: #ddd;
+}
+
+/* button */
+.btn-dark {
+    background: #111;
+    border: none;
+}
+
+.btn-dark:hover {
+    background: #333;
+}
